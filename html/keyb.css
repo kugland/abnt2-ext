@@ -1,0 +1,79 @@
+body {
+	background-image: url(paper_fibers.png);
+	font-family: 'Bitstream Vera Sans', sans-serif;
+}
+#keyboard {
+	margin: 5em auto;
+	width: 50em;
+}
+h1 {
+	margin-top: 1.5em;
+	text-align: center;
+	color: #eee;
+	text-shadow: 1px 1px 1px #000;
+}
+#footer {
+	text-align: center;
+	font-size: 8pt;
+	color: #eee;
+	text-shadow: 1px 1px 1px #000;
+}
+.key {
+	background: -webkit-linear-gradient(#ddd 0%, #bbb 100%);
+	background: -moz-linear-gradient(#ddd 0%, #bbb 100%);
+	background: -o-linear-gradient(#ddd 0%, #bbb 100%);
+	background: linear-gradient(#ddd 0%, #bbb 100%);
+	border-radius: 0.25em;
+	height: 2.5em;
+	width: 2.5em;
+	padding: 0.5em;
+	font-size: 10pt;
+	position: relative;
+	margin: 0.2em;
+	float: left;
+	box-shadow: 1px 1px 1px #000;
+	border: 0.1em solid #444;
+}
+.special {
+	text-align: center;
+	background: -webkit-linear-gradient(#fff 0%, #eee 100%);
+	background: -moz-linear-gradient(#fff 0%, #eee 100%);
+	background: -o-linear-gradient(#fff 0%, #eee 100%);
+	background: linear-gradient(#fff 0%, #eee 100%);
+	line-height: 24pt;
+}
+.comb {
+	color: #f08;
+}
+.c0 {
+	position: absolute;
+	bottom: 0.4em;
+	left: 0.5em;
+	width: 1em;
+	height: 1.25em;
+	text-align: center;
+}
+.c1 {
+	position: absolute;
+	top: 0.4em;
+	left: 0.5em;
+	width: 1em;
+	height: 1.25em;
+	text-align: center;
+}
+.c2 {
+	position: absolute;
+	bottom: 0.4em;
+	right: 0.5em;
+	width: 1em;
+	height: 1.25em;
+	text-align: center;
+}
+.c3 {
+	position: absolute;
+	top: 0.4em;
+	right: 0.5em;
+	width: 1em;
+	height: 1.25em;
+	text-align: center;
+}
